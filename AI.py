@@ -65,7 +65,7 @@ if __name__=='__main__':
 
         if "good bye" in statement or "ok bye" in statement or "stop" in statement:
             speak('Good bye and thank you for taking help of me')
-            print('Good bye and thank you for taking help of me')
+            print('Thank You')
             break
 
 
