@@ -157,7 +157,7 @@ if __name__=='__main__':
             time.sleep(5)
 
         elif 'ask' in statement:
-            speak('I can answer to computational and geographical questions and what question do you want to ask now')
+            speak('I can answer to computational and geographical questions and what question do you want to ask now?')
             question=takeCommand()
             app_id="R2K75H-7ELALHR35X"
             client = wolframalpha.Client('R2K75H-7ELALHR35X')
